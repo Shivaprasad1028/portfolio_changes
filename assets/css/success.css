@@ -1,0 +1,44 @@
+
+body{
+background: black;
+}
+.success{
+width: 45%;
+
+transform: translate(-50%, -50%);
+position: absolute;
+top: 50%;
+left: 50%;
+background: linear-gradient(to right,#8750f7,#9b8dff,#4654f9);
+border-radius: 10px;
+
+}
+h2{
+    margin-left: 80px;
+}
+.success-h1{
+    text-align: center;
+    padding-top: 10px;
+
+    display: flex;
+    gap: 40px;
+}
+.cross{
+    cursor: pointer;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.hr-line{
+width: 80%;
+text-align: center;
+margin-left: 10%;
+background-color:black;
+height: 1px;
+margin-bottom: 20px;
+
+}
+.success-p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
